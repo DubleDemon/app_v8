@@ -1,0 +1,59 @@
+body {
+margin: 0px;
+    padding: 0px;
+    background-image: url(img/magacin.jpg);
+}
+
+h1 {
+    color:darkgoldenrod;
+    text-align: center;
+    margin-top: 40px;
+    color: lighten($back-color, 1);
+    text-shadow: emboss-shadow(3, 0.2);
+
+}
+
+input[type=text] {
+    padding-top: 30px;
+   margin-top: 50px;
+    margin-left: 35%;
+    border: none;
+    border-bottom: 2px solid ;
+    border-radius: 4px;
+    background-color: rgba(3, 203, 200, 0.5);
+    color: black;
+    text-align: center;
+    width: 500px;
+    font-size: 30px;
+
+}
+
+::placeholder {
+    color:wheat;
+    opacity: 0.5;
+    text-align: center;
+}
+
+input[type=submit] {
+     background-color: rgba(3, 203, 200, 0.5);
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 550px;
+
+}
+.search {
+     background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 40px;
+}

@@ -1,0 +1,33 @@
+<html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="baraj.css" >
+<head>
+  <title>Пребарување на производи</title>
+</head>
+
+<body>
+  <center>
+  <h1>Пребарување на производи</h1>
+
+  <form action="results.php" method="post">
+      <p> Одберете тип на пребарување:</p><br />
+    <select name="searchtype">
+      <option value="ime">Име
+      <option value="title">Proizvoditel
+      <option value="isbn">ISBN
+    </select>
+    <br /><br />
+      <br />
+    <input name="searchterm" type="text" size="40" placeholder="Внеси го поимот за пребарување">
+    <br />
+      <br><br><br>
+    <input type="submit" name="submit" value="Барај">
+
+  </form>
+  <a href="menu.html"><button class="search">Оди до мени</button></a>
+  
+  </center>
+
+</body>
+</html>
+
